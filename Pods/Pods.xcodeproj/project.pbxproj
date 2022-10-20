@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B9E6B7EC0DF87358E1E3594DC42BFFF /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F456DF59D6D24A8AD19B08AEDEF10A8 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		462DDF015E46932989510BFD3A92F4D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4B3437EC1697B08513C923396630F9F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		67967E585A937ADD372F1309C40D8DA0 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D03EE8279C2521CE22FD4BE9731914B /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-dummy.m */; };
+		9DA4B1683CF974F7C40654F5E9072F40 /* Pods-HalaanTaskPresentation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FB83402C661722529CA2EC729604650 /* Pods-HalaanTaskPresentation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBDAAA38FF1CD1B8D1B1E510EC38C0FD /* Pods-HalaanTaskPresentation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B678D8D8CE95FCD52C5B51669971D /* Pods-HalaanTaskPresentation-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E8D6688D6F235227DE3DBBABC7BE11A /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		369E846E001A16F555849F9FC6B76EEA /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.modulemap"; sourceTree = "<group>"; };
+		5DCA0592105CAD6BE7A9FB0DFB046B48 /* Pods-HalaanTaskPresentation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HalaanTaskPresentation.release.xcconfig"; sourceTree = "<group>"; };
+		5DE161072429BC5C1617560F938E75F5 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F456DF59D6D24A8AD19B08AEDEF10A8 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9D03EE8279C2521CE22FD4BE9731914B /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FB83402C661722529CA2EC729604650 /* Pods-HalaanTaskPresentation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HalaanTaskPresentation-umbrella.h"; sourceTree = "<group>"; };
+		9FE02857F29B6F9E052F48C05F8562F2 /* Pods-HalaanTaskPresentation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HalaanTaskPresentation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B59EA10ADF653044507AC841401ADE8F /* Pods-HalaanTaskPresentation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HalaanTaskPresentation.modulemap"; sourceTree = "<group>"; };
+		C96FB36881A19B79E0CC1D53FC04AA1F /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D31D4318696C83FED07F50FA647A7663 /* Pods-HalaanTaskPresentation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HalaanTaskPresentation"; path = Pods_HalaanTaskPresentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D3D1AC93C5FE80328D870D5EBC6AC6 /* Pods-HalaanTaskPresentation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HalaanTaskPresentation-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED55B49A9910456A2C3A48D7019B9F16 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-Info.plist"; sourceTree = "<group>"; };
+		F314626781E52B463811849279B8ACAD /* Pods-HalaanTaskPresentation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HalaanTaskPresentation-Info.plist"; sourceTree = "<group>"; };
+		FA34FCB82DBB02246153B2035D4B6A30 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HalaanTaskPresentation-HalaanTaskPresentationTests"; path = Pods_HalaanTaskPresentation_HalaanTaskPresentationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8FD2E0D70DE8E08B3536920D696CB0 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE4B70D7899CF34A2E979AAF2A8673A6 /* Pods-HalaanTaskPresentation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HalaanTaskPresentation.debug.xcconfig"; sourceTree = "<group>"; };
+		FF8B678D8D8CE95FCD52C5B51669971D /* Pods-HalaanTaskPresentation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HalaanTaskPresentation-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0858C00F5244FC08290E01C42ED9557B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3437EC1697B08513C923396630F9F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA6C7AFB4BBD2A4043D6D3E1AD5FE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462DDF015E46932989510BFD3A92F4D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26306C9F75202386AD92B8A474D20D30 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA09D15907D8EBD652A9B84CEC28C805 /* Pods-HalaanTaskPresentation */,
+				D3A1616E5E827D386DE4E39E92ABA68F /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		657B6AD382BF1C8733353FA68202603A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D31D4318696C83FED07F50FA647A7663 /* Pods-HalaanTaskPresentation */,
+				FA34FCB82DBB02246153B2035D4B6A30 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				657B6AD382BF1C8733353FA68202603A /* Products */,
+				26306C9F75202386AD92B8A474D20D30 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3A1616E5E827D386DE4E39E92ABA68F /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests */ = {
+			isa = PBXGroup;
+			children = (
+				369E846E001A16F555849F9FC6B76EEA /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.modulemap */,
+				C96FB36881A19B79E0CC1D53FC04AA1F /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-acknowledgements.markdown */,
+				2E8D6688D6F235227DE3DBBABC7BE11A /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-acknowledgements.plist */,
+				9D03EE8279C2521CE22FD4BE9731914B /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-dummy.m */,
+				ED55B49A9910456A2C3A48D7019B9F16 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-Info.plist */,
+				6F456DF59D6D24A8AD19B08AEDEF10A8 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-umbrella.h */,
+				FB8FD2E0D70DE8E08B3536920D696CB0 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.debug.xcconfig */,
+				5DE161072429BC5C1617560F938E75F5 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.release.xcconfig */,
+			);
+			name = "Pods-HalaanTaskPresentation-HalaanTaskPresentationTests";
+			path = "Target Support Files/Pods-HalaanTaskPresentation-HalaanTaskPresentationTests";
+			sourceTree = "<group>";
+		};
+		DA09D15907D8EBD652A9B84CEC28C805 /* Pods-HalaanTaskPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				B59EA10ADF653044507AC841401ADE8F /* Pods-HalaanTaskPresentation.modulemap */,
+				9FE02857F29B6F9E052F48C05F8562F2 /* Pods-HalaanTaskPresentation-acknowledgements.markdown */,
+				D6D3D1AC93C5FE80328D870D5EBC6AC6 /* Pods-HalaanTaskPresentation-acknowledgements.plist */,
+				FF8B678D8D8CE95FCD52C5B51669971D /* Pods-HalaanTaskPresentation-dummy.m */,
+				F314626781E52B463811849279B8ACAD /* Pods-HalaanTaskPresentation-Info.plist */,
+				9FB83402C661722529CA2EC729604650 /* Pods-HalaanTaskPresentation-umbrella.h */,
+				FE4B70D7899CF34A2E979AAF2A8673A6 /* Pods-HalaanTaskPresentation.debug.xcconfig */,
+				5DCA0592105CAD6BE7A9FB0DFB046B48 /* Pods-HalaanTaskPresentation.release.xcconfig */,
+			);
+			name = "Pods-HalaanTaskPresentation";
+			path = "Target Support Files/Pods-HalaanTaskPresentation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B1DB3107F1206872969FAB04245A2A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA4B1683CF974F7C40654F5E9072F40 /* Pods-HalaanTaskPresentation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71599D97192ED12F2CC194326F30D6D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9E6B7EC0DF87358E1E3594DC42BFFF /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20B2131DD76F4BEC9D4469092535B04D /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4463428457EDDEC8DBF76CA3B7F9F7C /* Build configuration list for PBXNativeTarget "Pods-HalaanTaskPresentation-HalaanTaskPresentationTests" */;
+			buildPhases = (
+				71599D97192ED12F2CC194326F30D6D7 /* Headers */,
+				C4E4A1F797545382DA37F23B4D56B899 /* Sources */,
+				0858C00F5244FC08290E01C42ED9557B /* Frameworks */,
+				5044045EFBA928B6A2297FE9E957441B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HalaanTaskPresentation-HalaanTaskPresentationTests";
+			productName = Pods_HalaanTaskPresentation_HalaanTaskPresentationTests;
+			productReference = FA34FCB82DBB02246153B2035D4B6A30 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFCB566F837F221D28F6CD69B59EDC37 /* Pods-HalaanTaskPresentation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0502A5396975E555F4A1384941328508 /* Build configuration list for PBXNativeTarget "Pods-HalaanTaskPresentation" */;
+			buildPhases = (
+				1B1DB3107F1206872969FAB04245A2A7 /* Headers */,
+				32B541C427F9B983CBEA49587ECAE484 /* Sources */,
+				6CA6C7AFB4BBD2A4043D6D3E1AD5FE9F /* Frameworks */,
+				04676E3A8A32F87F480EF2B7A2D68603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HalaanTaskPresentation";
+			productName = Pods_HalaanTaskPresentation;
+			productReference = D31D4318696C83FED07F50FA647A7663 /* Pods-HalaanTaskPresentation */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 657B6AD382BF1C8733353FA68202603A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFCB566F837F221D28F6CD69B59EDC37 /* Pods-HalaanTaskPresentation */,
+				20B2131DD76F4BEC9D4469092535B04D /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04676E3A8A32F87F480EF2B7A2D68603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5044045EFBA928B6A2297FE9E957441B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B541C427F9B983CBEA49587ECAE484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDAAA38FF1CD1B8D1B1E510EC38C0FD /* Pods-HalaanTaskPresentation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E4A1F797545382DA37F23B4D56B899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67967E585A937ADD372F1309C40D8DA0 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		107D6BC42FD717931AD19151041F789E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4B70D7899CF34A2E979AAF2A8673A6 /* Pods-HalaanTaskPresentation.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HalaanTaskPresentation/Pods-HalaanTaskPresentation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HalaanTaskPresentation/Pods-HalaanTaskPresentation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5924E0AF9FCD884A0B2688D91E93DC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8FD2E0D70DE8E08B3536920D696CB0 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HalaanTaskPresentation-HalaanTaskPresentationTests/Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HalaanTaskPresentation-HalaanTaskPresentationTests/Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E83268F3E6538CA08CD94A790975F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DE161072429BC5C1617560F938E75F5 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HalaanTaskPresentation-HalaanTaskPresentationTests/Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HalaanTaskPresentation-HalaanTaskPresentationTests/Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		785265A64E94373C1F12C2284BEA1B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DCA0592105CAD6BE7A9FB0DFB046B48 /* Pods-HalaanTaskPresentation.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HalaanTaskPresentation/Pods-HalaanTaskPresentation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HalaanTaskPresentation/Pods-HalaanTaskPresentation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0502A5396975E555F4A1384941328508 /* Build configuration list for PBXNativeTarget "Pods-HalaanTaskPresentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107D6BC42FD717931AD19151041F789E /* Debug */,
+				785265A64E94373C1F12C2284BEA1B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4463428457EDDEC8DBF76CA3B7F9F7C /* Build configuration list for PBXNativeTarget "Pods-HalaanTaskPresentation-HalaanTaskPresentationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5924E0AF9FCD884A0B2688D91E93DC25 /* Debug */,
+				6E83268F3E6538CA08CD94A790975F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

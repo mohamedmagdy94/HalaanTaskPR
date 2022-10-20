@@ -7,10 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38CBC41CA272054B13DA7E03 /* Pods_HalaanTaskPresentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8368876E5B8922EFC389C634 /* Pods_HalaanTaskPresentation.framework */; };
 		D9B4B4BD29017AFF00CEE98B /* HalaanTaskPresentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B4BC29017AFF00CEE98B /* HalaanTaskPresentation.docc */; };
 		D9B4B4C329017AFF00CEE98B /* HalaanTaskPresentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4B4B829017AFF00CEE98B /* HalaanTaskPresentation.framework */; };
 		D9B4B4C829017AFF00CEE98B /* HalaanTaskPresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B4C729017AFF00CEE98B /* HalaanTaskPresentationTests.swift */; };
 		D9B4B4C929017AFF00CEE98B /* HalaanTaskPresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B4B4BB29017AFF00CEE98B /* HalaanTaskPresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9B4B4DD29017B1600CEE98B /* TweetCounterConfiguratorContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B4D329017B1600CEE98B /* TweetCounterConfiguratorContract.swift */; };
+		D9B4B4DE29017B1600CEE98B /* TweetCounterInteractorContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B4D429017B1600CEE98B /* TweetCounterInteractorContract.swift */; };
+		D9B4B4DF29017B1600CEE98B /* TweetCounterRouterContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B4D529017B1600CEE98B /* TweetCounterRouterContract.swift */; };
+		D9B4B4E029017B1600CEE98B /* TweetCounterReprositoryContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B4D629017B1600CEE98B /* TweetCounterReprositoryContract.swift */; };
+		D9B4B4E129017B1600CEE98B /* TweetCounterViewContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B4D729017B1600CEE98B /* TweetCounterViewContract.swift */; };
+		D9B4B4E229017B1600CEE98B /* TweetCounterPresenterContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B4D829017B1600CEE98B /* TweetCounterPresenterContract.swift */; };
+		D9B4B4E329017B1600CEE98B /* TweetCounterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B4DA29017B1600CEE98B /* TweetCounterError.swift */; };
+		D9B4B4E429017B1600CEE98B /* TweetCounterViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B4DB29017B1600CEE98B /* TweetCounterViewData.swift */; };
+		D9B4B4E529017B1600CEE98B /* TweetCountingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B4DC29017B1600CEE98B /* TweetCountingResult.swift */; };
+		E4E88F80133C29423311BEFC /* Pods_HalaanTaskPresentation_HalaanTaskPresentationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7646DDA4D1182D45A919688C /* Pods_HalaanTaskPresentation_HalaanTaskPresentationTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +35,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08583B99AE269A1222504D48 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.debug.xcconfig"; path = "Target Support Files/Pods-HalaanTaskPresentation-HalaanTaskPresentationTests/Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7646DDA4D1182D45A919688C /* Pods_HalaanTaskPresentation_HalaanTaskPresentationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalaanTaskPresentation_HalaanTaskPresentationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8368876E5B8922EFC389C634 /* Pods_HalaanTaskPresentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalaanTaskPresentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C883B1703D2365DD2592D0C /* Pods-HalaanTaskPresentation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanTaskPresentation.debug.xcconfig"; path = "Target Support Files/Pods-HalaanTaskPresentation/Pods-HalaanTaskPresentation.debug.xcconfig"; sourceTree = "<group>"; };
+		A0BF58C6BE4B298D66379FB6 /* Pods-HalaanTaskPresentation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanTaskPresentation.release.xcconfig"; path = "Target Support Files/Pods-HalaanTaskPresentation/Pods-HalaanTaskPresentation.release.xcconfig"; sourceTree = "<group>"; };
+		BDFFA1587A28394BA05A97E1 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.release.xcconfig"; path = "Target Support Files/Pods-HalaanTaskPresentation-HalaanTaskPresentationTests/Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.release.xcconfig"; sourceTree = "<group>"; };
 		D9B4B4B829017AFF00CEE98B /* HalaanTaskPresentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HalaanTaskPresentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B4B4BB29017AFF00CEE98B /* HalaanTaskPresentation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HalaanTaskPresentation.h; sourceTree = "<group>"; };
 		D9B4B4BC29017AFF00CEE98B /* HalaanTaskPresentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = HalaanTaskPresentation.docc; sourceTree = "<group>"; };
 		D9B4B4C229017AFF00CEE98B /* HalaanTaskPresentationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalaanTaskPresentationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B4B4C729017AFF00CEE98B /* HalaanTaskPresentationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalaanTaskPresentationTests.swift; sourceTree = "<group>"; };
+		D9B4B4D329017B1600CEE98B /* TweetCounterConfiguratorContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterConfiguratorContract.swift; sourceTree = "<group>"; };
+		D9B4B4D429017B1600CEE98B /* TweetCounterInteractorContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterInteractorContract.swift; sourceTree = "<group>"; };
+		D9B4B4D529017B1600CEE98B /* TweetCounterRouterContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterRouterContract.swift; sourceTree = "<group>"; };
+		D9B4B4D629017B1600CEE98B /* TweetCounterReprositoryContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterReprositoryContract.swift; sourceTree = "<group>"; };
+		D9B4B4D729017B1600CEE98B /* TweetCounterViewContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterViewContract.swift; sourceTree = "<group>"; };
+		D9B4B4D829017B1600CEE98B /* TweetCounterPresenterContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterPresenterContract.swift; sourceTree = "<group>"; };
+		D9B4B4DA29017B1600CEE98B /* TweetCounterError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterError.swift; sourceTree = "<group>"; };
+		D9B4B4DB29017B1600CEE98B /* TweetCounterViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterViewData.swift; sourceTree = "<group>"; };
+		D9B4B4DC29017B1600CEE98B /* TweetCountingResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCountingResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CBC41CA272054B13DA7E03 /* Pods_HalaanTaskPresentation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +71,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9B4B4C329017AFF00CEE98B /* HalaanTaskPresentation.framework in Frameworks */,
+				E4E88F80133C29423311BEFC /* Pods_HalaanTaskPresentation_HalaanTaskPresentationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		558183F1AB5C5AA9013B5DB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C883B1703D2365DD2592D0C /* Pods-HalaanTaskPresentation.debug.xcconfig */,
+				A0BF58C6BE4B298D66379FB6 /* Pods-HalaanTaskPresentation.release.xcconfig */,
+				08583B99AE269A1222504D48 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.debug.xcconfig */,
+				BDFFA1587A28394BA05A97E1 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEE04339E3D4DCE7C2F96792 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8368876E5B8922EFC389C634 /* Pods_HalaanTaskPresentation.framework */,
+				7646DDA4D1182D45A919688C /* Pods_HalaanTaskPresentation_HalaanTaskPresentationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D9B4B4AE29017AFF00CEE98B = {
 			isa = PBXGroup;
 			children = (
 				D9B4B4BA29017AFF00CEE98B /* HalaanTaskPresentation */,
 				D9B4B4C629017AFF00CEE98B /* HalaanTaskPresentationTests */,
 				D9B4B4B929017AFF00CEE98B /* Products */,
+				558183F1AB5C5AA9013B5DB6 /* Pods */,
+				CEE04339E3D4DCE7C2F96792 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +122,8 @@
 		D9B4B4BA29017AFF00CEE98B /* HalaanTaskPresentation */ = {
 			isa = PBXGroup;
 			children = (
+				D9B4B4D229017B1600CEE98B /* Contract */,
+				D9B4B4D929017B1600CEE98B /* Entity */,
 				D9B4B4BB29017AFF00CEE98B /* HalaanTaskPresentation.h */,
 				D9B4B4BC29017AFF00CEE98B /* HalaanTaskPresentation.docc */,
 			);
@@ -83,6 +136,29 @@
 				D9B4B4C729017AFF00CEE98B /* HalaanTaskPresentationTests.swift */,
 			);
 			path = HalaanTaskPresentationTests;
+			sourceTree = "<group>";
+		};
+		D9B4B4D229017B1600CEE98B /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4B4D329017B1600CEE98B /* TweetCounterConfiguratorContract.swift */,
+				D9B4B4D429017B1600CEE98B /* TweetCounterInteractorContract.swift */,
+				D9B4B4D529017B1600CEE98B /* TweetCounterRouterContract.swift */,
+				D9B4B4D629017B1600CEE98B /* TweetCounterReprositoryContract.swift */,
+				D9B4B4D729017B1600CEE98B /* TweetCounterViewContract.swift */,
+				D9B4B4D829017B1600CEE98B /* TweetCounterPresenterContract.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		D9B4B4D929017B1600CEE98B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4B4DA29017B1600CEE98B /* TweetCounterError.swift */,
+				D9B4B4DB29017B1600CEE98B /* TweetCounterViewData.swift */,
+				D9B4B4DC29017B1600CEE98B /* TweetCountingResult.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9B4B4CC29017AFF00CEE98B /* Build configuration list for PBXNativeTarget "HalaanTaskPresentation" */;
 			buildPhases = (
+				72F640D4A6B9E12045F1BD5F /* [CP] Check Pods Manifest.lock */,
 				D9B4B4B329017AFF00CEE98B /* Headers */,
 				D9B4B4B429017AFF00CEE98B /* Sources */,
 				D9B4B4B529017AFF00CEE98B /* Frameworks */,
@@ -121,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9B4B4CF29017AFF00CEE98B /* Build configuration list for PBXNativeTarget "HalaanTaskPresentationTests" */;
 			buildPhases = (
+				A503318C02AAAEAFD3F697AF /* [CP] Check Pods Manifest.lock */,
 				D9B4B4BE29017AFF00CEE98B /* Sources */,
 				D9B4B4BF29017AFF00CEE98B /* Frameworks */,
 				D9B4B4C029017AFF00CEE98B /* Resources */,
@@ -189,12 +267,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		72F640D4A6B9E12045F1BD5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HalaanTaskPresentation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A503318C02AAAEAFD3F697AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HalaanTaskPresentation-HalaanTaskPresentationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D9B4B4B429017AFF00CEE98B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9B4B4E229017B1600CEE98B /* TweetCounterPresenterContract.swift in Sources */,
+				D9B4B4E429017B1600CEE98B /* TweetCounterViewData.swift in Sources */,
 				D9B4B4BD29017AFF00CEE98B /* HalaanTaskPresentation.docc in Sources */,
+				D9B4B4DE29017B1600CEE98B /* TweetCounterInteractorContract.swift in Sources */,
+				D9B4B4DF29017B1600CEE98B /* TweetCounterRouterContract.swift in Sources */,
+				D9B4B4DD29017B1600CEE98B /* TweetCounterConfiguratorContract.swift in Sources */,
+				D9B4B4E329017B1600CEE98B /* TweetCounterError.swift in Sources */,
+				D9B4B4E029017B1600CEE98B /* TweetCounterReprositoryContract.swift in Sources */,
+				D9B4B4E129017B1600CEE98B /* TweetCounterViewContract.swift in Sources */,
+				D9B4B4E529017B1600CEE98B /* TweetCountingResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +473,7 @@
 		};
 		D9B4B4CD29017AFF00CEE98B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C883B1703D2365DD2592D0C /* Pods-HalaanTaskPresentation.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -366,6 +501,7 @@
 		};
 		D9B4B4CE29017AFF00CEE98B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0BF58C6BE4B298D66379FB6 /* Pods-HalaanTaskPresentation.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -393,7 +529,9 @@
 		};
 		D9B4B4D029017AFF00CEE98B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08583B99AE269A1222504D48 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -408,7 +546,9 @@
 		};
 		D9B4B4D129017AFF00CEE98B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDFFA1587A28394BA05A97E1 /* Pods-HalaanTaskPresentation-HalaanTaskPresentationTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;

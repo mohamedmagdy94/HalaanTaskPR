@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_HalaanTaskPresentation_HalaanTaskPresentationTests : NSObject
+@end
+@implementation PodsDummy_Pods_HalaanTaskPresentation_HalaanTaskPresentationTests
+@end
